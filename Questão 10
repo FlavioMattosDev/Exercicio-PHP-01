@@ -1,0 +1,6 @@
+<?php
+
+echo date('d m Y');
+echo date('\<\b\\r\> d\<\b\\r\> m \<\b\\r\> Y');
+
+?>
