@@ -1,0 +1,18 @@
+<?php
+
+	$golsFlavio = 5;
+	$golsMatheus = 2;
+	$golsTales = 3;
+	$golsGuilherme = 1;
+	$golsGabriel = 2;
+
+echo "Flávio fez: $golsFlavio gols <br>";
+echo "Matheus fez: $golsMatheus gols <br>";
+echo "Tales fez: $golsTales gols <br>";
+echo "Guilherme fez: $golsGuilherme gols <br>";
+echo "Gabriel fez: $golsGabriel gols <br>";
+
+echo "O artilheiro da partida foi Flávio com: ";
+echo max($golsFlavio, $golsMatheus, $golsTales, $golsGuilherme, $golsGabriel);
+
+?>
