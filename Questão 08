@@ -1,0 +1,40 @@
+<?php
+
+	$idade1 = 25;
+	$idade2 = 17;
+	$idade3 = 15;
+	$idade4 = 27;
+	$idade5 = 20;
+	$nome1 = "Flavio";
+	$nome2 = "Matheus";
+	$nome3 = "Tales";
+	$nome4 = "Guilherme";
+	$nome5 = "Gabriel";
+
+if($idade1>= 18){
+	echo "{$nome1} é maior de 18 e tem {$idade1} anos <br>";
+} else {
+	echo "{$nome1} não é maior de 18 e tem {$idade1} anos <br>";
+}
+if($idade2>= 18){
+	echo "{$nome2} é maior de 18 e tem {$idade2} anos <br>";
+} else {
+	echo "{$nome2} não é maior de 18 e tem {$idade2} anos <br>";
+}
+if($idade3>= 18){
+	echo "{$nome3} é maior de 18 e tem {$idade3} anos <br>";
+} else {
+	echo "{$nome3} não é maior de 18 e tem {$idade3} anos <br>";
+}
+if($idade4>= 18){
+	echo "{$nome4} é maior de 18 e tem {$idade4} anos <br>";
+} else {
+	echo "{$nome4} não é maior de 18 e tem {$idade4} anos <br>";
+}
+if($idade5>= 18){
+	echo "{$nome5} é maior de 18 e tem {$idade5} anos <br>";
+} else {
+	echo "{$nome5} não é maior de 18 e tem {$idade5} anos <br>";
+}
+
+?>
